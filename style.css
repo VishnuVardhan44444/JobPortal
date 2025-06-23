@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    color:black;
+}
+.header-section{
+    height: 100vh;
+    background-color: rgb(43, 43, 188);
+}
+.navbar button{
+    display: inline-flex;
+     margin-top:30px;
+     margin-right:50px;
+     font-size:20px;
+     background-color: blue;
+     color:white;
+     width:130px;
+     height:33px;
+     padding-left:25px;
+     border-radius: 5px;
+     padding-top:5px;
+}
+.navbar p{
+    margin-top:30px;
+    display: inline-flex;
+    padding-left:50px;
+}
+.header-section form{ 
+    border:2px solid black;
+    margin-left:500px;
+    margin-right:150px;
+    margin-top:30px;
+    border-radius: 10px;
+    height:340px;
+    width:480px;
+    background-color: white;
+}
+.header-section input{
+    width:400px;
+    height:45px;
+    margin-left:30px;
+    border-radius: 10px;
+    margin-top:15px;
+    padding-left:15px;
+    font-family:sans-serif;
+}
+.center select{
+    width:400px;
+    height:45px;
+    margin-left:30px;
+    border-radius:10px;
+    padding-left:15px;  
+}
+.category-section{
+    height:100vh;
+    background-color: whitesmoke;
+}
+.category-section ul{
+    position: relative;
+}
+.category-section span{
+    position:absolute;
+    top:220px;
+    margin-left:23px;
+   padding-left:5px;
+   color:black;
+}
+.category-section ul li{
+   
+    display:inline-flex;
+    width:150px;
+    height:200px;
+    margin-left:125px;
+   margin-top:50px;
+ 
+    position: relative;
+}
+.category-section ul li img{
+    padding-left:10px;
+    padding-top:20px;
+    border-radius: 5px;;
+}
+.featured-jobs{
+     height:100vh;
+     background-color: whitesmoke;
+}
+
+.featured-jobs ul li{
+    border:1px solid gray;
+    display: inline-flex;
+    width:350px;
+    height:250px;  
+    margin-left:70px;
+    margin-top:40px; 
+    border-radius: 7px;
+}
+.firstone{
+    border:1px solid gray;
+    display: inline-block;
+      margin-left:80px;
+      margin-top:80px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.secondone{
+      border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:80px;
+       margin-top:80px;
+      height:360px;
+       width:300px;
+         border-radius: 10px;
+}
+
+.thirdone{
+       border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:80px;
+       margin-top:80px;
+      height:360px;
+       width:300px;
+         border-radius: 10px;
+}
+.fourthone{
+          border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:80px;
+       margin-top:80px;
+      height:360px;
+       width:300px;
+       border-radius: 10px;
+}
+  
+.top-companies{
+     height:100vh;
+     background-color: whitesmoke;
+}
+.top-companies ul{
+    position: relative;
+}
+.top-companies span{
+    position:absolute;
+    top:240px;
+    margin-left:45px;
+   padding-left:5px;
+}
+.top-companies ul li{
+    /* border:1px solid black; */
+    display:inline-flex;
+    width:160px;
+    height:200px;
+    margin-left:50px;
+   margin-top:15px;
+    border-radius: 8px;
+}
+.top-companies ul li img{
+     padding-left:10px;
+     padding-top:20px;
+     border-radius: 10px;
+}
+.top-companies img{
+    padding-top:150px;
+}
+
+.footer-section{
+    display: inline-flex;
+    background-color: black;
+    width:1520px;
+    padding-left:50px;
+    height: 100vh;
+    padding-top:50px;
+}
+.footer-section h2{
+    color:white;
+}
+.footer-section p{
+    color:gray;
+}
+.footer-last-part p{
+     display: inline-flex;
+     margin-left:30px;
+    font-size: 20px
+}
+.for-job-seekers{
+     margin:10px;
+}
+.for-job-seekers p{
+    font-size: 20px;
+     padding:10px;
+}
+.for-employees{
+    margin:10px;
+     padding-left:50px;
+}
+.for-employees p{
+     font-size: 20px;  
+      padding:10px;
+}
+.Company{
+     margin:10px;
+      padding-left:50px;
+}
+.Company p{
+    font-size: 20px;
+    padding:10px;
+}
+.news-letter{
+     margin:10px;
+     padding-left:50px;
+}
+.news-letter input{
+    width:300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left:10px;
+}
+.news-letter button{
+    width:300px;
+    height: 40px;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    padding-right:40px;
+    font-size:17px;
+}
+.news-letter button:hover{
+    transform: scale(1.1);
+}
