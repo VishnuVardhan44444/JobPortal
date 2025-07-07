@@ -10,29 +10,30 @@
     <div class="header-section">
         <p style="font-weight: bold;font-size: 30px;color:white;padding-top:50px;padding-left:50px;display: inline-flex;">Job Portal</p>
         
-        <p style="font-weight: bold;font-size: 30px;color:white;padding-top:50px;padding-right:50px;float: right;display: inline-flex;"><a href="./form/index.html"style="color:white;list-style:none;">Login</a></p>
-
-
-
+        
         <p style="color:white;margin-left: 500px;padding-top:60px;font-size:50px">Find Your Dream Job</p>
         <p style="color:white;margin-left: 500px;padding-top:10px;font-size:20px">Discover thousands of opportunities from top companies</p>
-        <form id="lg-form">
+        <form id="loginform">
         <br>
-        <input type="text"id="jobtitle"placeholder="Job title,keyword,or company">
+        <input type="text"id="jobtitle"placeholder="Job title">
        <br><br>
         <input type="text"id="location"placeholder="Location">
        <br> <br>
+        <input type="number"id="Experience"placeholder="Experience">
+       <br> 
     
-        <p class="center"><select name="Experience level">
+        <!-- <p class="center"><select name="Experience level">
          <option value="">Experience Level</option>
                     <option value ="one">1 year or Less than 1 year </option>
                     <option value ="1-2">1-2 years</option>
                     <option value ="5">5 years</option>
                     <option value ="10">10 years</option>
-                    </select></p>
+                    </select></p> -->
         
-        <button type="search jobs"style="margin-top:30px;margin-left:30px;width:400px;height:45px;border-radius:10px;font-size:16px;color:white;background-color:blue;padding-right:15px;">Search Jobs</button>
+        <button type="searchjobs"id="search-jobs"style="margin-top:30px;margin-left:30px;width:400px;height:45px;border-radius:10px;font-size:16px;color:white;background-color:blue;padding-right:15px;cursor:pointer;">submit</button>
+        
     </form>
+     <script src ="script.js"></script>
     <p style="color:white;margin-left:400px;display: inline-flex;margin-top:50px;">Popular Searches : Software Developer</p>
     <p style="color:white;display: inline-flex; padding-left:15px">Data Scientist</p>
     <p style="color:white;display: inline-flex;padding-left:15px">Security Analyst</p>
@@ -105,47 +106,43 @@
         <p style="color:black;font-size:20px;margin-left:580px;padding-top:10px;">Hand-picked opportunities from top Companies</p>
           <div class="firstone">
            
-            <p style="color:blue;padding-left:30px;padding-top:50px;">Senior Software Developer</p>
-            <p style="padding-top:15px;padding-left:30px">TechCorp Solutions</p>
-            <p style="padding-top:50px;padding-left:30px">Mumbai , India</p>
-            <p style="padding-top:20px;padding-left:30px">3-5 years</p>
-             <p style="padding-top:20px;padding-left:30px">Posted 2 days ago</p>
-             <p style="padding-top:50px;padding-left:30px;color:green;display:inline-flex;">12-18 LPA</p>
-            <button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px">Apply Now</button>
+            <p style="color:blue;padding-left:15px;padding-top:50px;">Full Stack Developer - Intern</p>
+            <p style="padding-top:15px;padding-left:15px">D Square Consulting Services Pvt Ltd</p>
+            <p style="padding-top:50px;padding-left:15px">Bangaluru , India</p>
+            <p style="padding-top:20px;padding-left:15px">0-1 years</p>
+             <p style="padding-top:20px;padding-left:15px">Posted 3 days ago</p>
+          
+           <a href="https://www.linkedin.com/jobs/view/4260628425"><button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px;margin-top:40px;margin-left:100px;cursor:pointer;">Read More</button></a> 
           </div>
                <div class="secondone">
-           <p style="color:blue;padding-left:30px;padding-top:50px;">Data Scientist</p>
-            <p style="padding-top:15px;padding-left:30px">Analytics Pro</p>
-            <p style="padding-top:50px;padding-left:30px">Delhi , India</p>
-            <p style="padding-top:20px;padding-left:30px">2-4 years</p>
-             <p style="padding-top:20px;padding-left:30px">Posted 3 days ago</p>
-             <p style="padding-top:50px;padding-left:30px;color:green;display:inline-flex;">10-16 LPA</p>
-            <button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px">Apply Now</button>
+           <p style="color:blue;padding-left:15px;padding-top:50px;"> Lead Data Scientist</p>
+            <p style="padding-top:15px;padding-left:15px">iSoCRATES Inc.</p>
+            <p style="padding-top:50px;padding-left:15px">Bengaluru , India</p>
+            <p style="padding-top:20px;padding-left:15px">5 years</p>
+             <p style="padding-top:20px;padding-left:15px">Posted 6 days ago</p>
+            <a href="https://www.linkedin.com/jobs/view/4251641973"><button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px;margin-top:40px;margin-left:100px;cursor:pointer;">Read More</button></a> 
           </div>
             <div class="thirdone">
-            <p style="color:blue;padding-left:30px;padding-top:50px;">UI/UX Designer</p>
-            <p style="padding-top:15px;padding-left:30px">BrandMax</p>
-            <p style="padding-top:50px;padding-left:30px">Chennai , India</p>
-            <p style="padding-top:20px;padding-left:30px">3-6 years</p>
-             <p style="padding-top:20px;padding-left:30px">Posted 4 days ago</p>
-             <p style="padding-top:50px;padding-left:30px;color:rgb(0, 230, 0);display:inline-flex;">9-15 LPA</p>
-            <button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px">Apply Now</button>
+            <p style="color:blue;padding-left:15px;padding-top:50px;">CYBERSECURITY ANALYST-L3</p>
+            <p style="padding-top:15px;padding-left:15px">TestUnity</p>
+            <p style="padding-top:50px;padding-left:15px">Pune,Maharashtra,India</p>
+            <p style="padding-top:20px;padding-left:15px">3-5 years</p>
+             <p style="padding-top:20px;padding-left:15px">Posted 2 weeks  ago</p>
+          <a href="https://www.linkedin.com/jobs/view/4249780162"><button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px;margin-top:40px;margin-left:100px;cursor:pointer;">Read More</button></a> 
             </div>
             <div class="fourthone">
-           
-          <p style="color:blue;padding-left:30px;padding-top:50px;">DevOps Engineer</p>
-            <p style="padding-top:15px;padding-left:30px">CloudTech</p>
-            <p style="padding-top:50px;padding-left:30px">Hyderabad , India</p>
-            <p style="padding-top:20px;padding-left:30px">3-5 years</p>
-             <p style="padding-top:20px;padding-left:30px">Posted 2 days ago</p>
-             <p style="padding-top:50px;padding-left:30px;color:green;display:inline-flex;">11-17 LPA</p>
-            <button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px">Apply Now</button>
+          <p style="color:blue;padding-left:15px;padding-top:50px;">Playwright Automation Tester</p>
+            <p style="padding-top:15px;padding-left:15px">obrimo Technologies</p>
+            <p style="padding-top:50px;padding-left:15px">Bengaluru , India</p>
+            <p style="padding-top:20px;padding-left:15px">5+ years</p>
+             <p style="padding-top:20px;padding-left:15px">Posted 3 weeks  ago</p>
+      <a href="https://www.linkedin.com/jobs/view/4247769652"> <button type="Apply"style="background-color:blue;color:white;width:85px;height:33px;margin-left:80px;border-radius:5px;margin-top:40px;margin-left:100px;cursor:pointer;">Read More</button></a> 
           </div>
-          <button type="viewalljobs" style="margin-left:700px;margin-top:70px;width:130px;height:40px;background-color: white;border-color:rgb(243, 239, 239);color:black;border-radius: 5px;">View All Jobs</button>
+         <a href="/subsectionfeaturedjobs/index1.html"> <button type="viewalljobs" style="margin-left:700px;margin-top:70px;width:130px;height:40px;background-color: white;border-color:rgb(243, 239, 239);color:black;border-radius: 5px;cursor:pointer;">View All Jobs </button></a>
     </div>
     <hr>
    <div class="top-companies">
-        <p style="font-weight: bold;color:black;font-size:30px;margin-left:550px;padding-top:50px;">Top Companies Hiring</p>
+        <p style="font-weight: bold;color:black;font-size:30px;margin-left:600px;padding-top:50px;">Top Companies Hiring</p>
         <p style="color:black;font-size:20px;padding-top:10px;margin-left:550px;">Explore opportunities at leading organizations</p>
        <ul>
             <li>
@@ -181,8 +178,8 @@
               </li>
                
                  </ul> 
-
-                 <img src="./Images/topcompaniesbanner1.webp"alt="banner"width="1520px"height="395px">
+                      <marquee direction ="left"scrollamount="10%">Secure Your Spot at Top Companies</marquee>
+                 <!-- <img src="./Images/topcompaniesbanner1.webp"alt="banner"width="1520px"height="395px"> -->
 
     </div>
     
@@ -222,13 +219,13 @@
     <br>
        <label for="useremail"></label>
       <input type="email"id="useremail"name="emailuser"placeholder="Enter your email"><br><br>
-      <center><button type="subscribe">Subscribe</button></center>
+      <center><button type="subscribe"style="cursor:pointer;">Subscribe</button></center>
         </div>
         
   
     </div>
      
    
-   
+  
 </body>
 </html>

@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.web-jobs{
+     height:100vh;
+     
+}
+.web-jobs ul li{
+    border:1px solid gray;
+    display: inline-flex;
+    width:350px;
+    height:250px;  
+    margin-left:70px;
+    border-radius: 7px;
+}
+.firstone{
+    border:1px solid gray;
+    display: inline-block;
+      margin-left:80px;
+      margin-top:50px;
+      height:370px;
+      width:300px;
+     border-radius: 10px;
+}
+.secondone{
+      border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:50px;
+      height:370px;
+       width:300px;
+         border-radius: 10px;
+}
+.thirdone{
+       border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:50px;
+      height:370px;
+       width:300px;
+         border-radius: 10px;
+}
+.fourthone{
+    border:1px solid gray;
+    display: inline-block;
+    margin-left:50px;
+      margin-top:80px;
+    height:370px;
+    width:300px;
+    border-radius: 10px;
+}
+.datascience-jobs{
+     height:100vh;
+   
+}
+.datascience-jobs ul li{
+    border:1px solid gray;
+    display: inline-flex;
+    width:350px;
+    height:250px;  
+    margin-left:70px;
+    border-radius: 7px;
+}
+.fifthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:80px;
+      margin-top:70px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.sixthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.seventhone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+
+.eigthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.cyber-jobs{
+     height:100vh;
+}
+.cyber-jobs ul li{
+    border:1px solid gray;
+    display: inline-flex;
+    width:350px;
+    height:250px;  
+    margin-left:70px;
+    border-radius: 7px;
+}
+.fifthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:80px;
+      margin-top:70px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.sixthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.seventhone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+
+.eigthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+
+.ninthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:75px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.tenthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.eleventhone{
+      border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.twelvethone{
+       border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.tester-jobs{
+     height:100vh;
+}
+.tester-jobs  ul li{
+    border:1px solid gray;
+    display: inline-flex;
+    width:350px;
+    height:250px;  
+    margin-left:70px;
+    border-radius: 7px;
+}
+.thirteenthone{
+       border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.Fourteenthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.Fifteenthone{
+      border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}
+.Sixteenthone{
+     border:1px solid gray;
+    display: inline-block;
+      margin-left:50px;
+      margin-top:50px;
+      height:360px;
+      width:300px;
+     border-radius: 10px;
+}

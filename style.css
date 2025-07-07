@@ -146,7 +146,7 @@
 }
 .top-companies span{
     position:absolute;
-    top:240px;
+    top:270px;
     margin-left:45px;
    padding-left:5px;
 }
@@ -156,7 +156,7 @@
     width:160px;
     height:200px;
     margin-left:50px;
-   margin-top:15px;
+   margin-top:50px;
     border-radius: 8px;
 }
 .top-companies ul li img{
@@ -164,10 +164,15 @@
      padding-top:20px;
      border-radius: 10px;
 }
-.top-companies img{
+/* .top-companies img{
     padding-top:150px;
+} */
+.top-companies marquee
+{
+    margin-top:200px;
+    font-size:30px;
+    color:black;
 }
-
 .footer-section{
     display: inline-flex;
     background-color: black;
