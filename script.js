@@ -17,16 +17,16 @@
 
 
 
-// var a = document.getElementById('jobtitle');
-// console.log(a);
-// var a = document.getElementById('search-jobs');
-// console.log(a);
-//  a.addEventListener('click',function(e){
-//      e.preventDefault();
+var a = document.getElementById('jobtitle');
+console.log(a);
+var a = document.getElementById('search-jobs');
+console.log(a);
+ a.addEventListener('click',function(e){
+     e.preventDefault();
      
-//     alert("clicked");
+    alert("clicked");
    
-// })
+})
 
 // var b = document.getElementById('location');
 // console.log(b);
@@ -42,7 +42,3 @@
 
 
 
-function selectthree(title,location,experience)
-{
-    ('<a href="https://www.linkedin.com/jobs/view/4260628425"></a>');
-}
